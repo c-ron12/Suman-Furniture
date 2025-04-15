@@ -1,0 +1,1301 @@
+
+@media screen and (max-width: 1326px) {
+
+    #logo img {
+        width: 66px;
+        height: 67px;
+    }
+    #logo {
+        margin-left: 20px;
+    }
+
+    .bussName {
+        font-size: 25px;
+    }
+
+    #menu li a {
+        font-size: 19px;
+        padding: 0px 15px;
+    }
+
+    #searchBar input {
+        width: 232px;
+    }
+
+    #searchBar {
+        margin-left: 28px;
+        max-width: 100%;
+    }
+
+    #bannerContent h2 {
+        font-size: 22px;
+    }
+
+    .aboutContent h2 {
+    font-size: 22px;
+    }
+
+    .aboutContent h1 {
+        font-size: 28px;
+    }
+
+    .aboutContent {
+        margin-top: 42px;
+    }
+
+    #ourDesign h1 {
+        font-size: 28px;
+    }
+
+    nav .bar span {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    nav {
+    
+        flex-direction: column;
+        height:146px;
+    }
+
+    #logo img {
+        width: 80px;
+        height: 80px;
+        margin-top: 7px;
+    }
+
+    .bussName {
+        font-size: 30px;
+    }
+
+    #menu {
+        z-index: 999;
+        order: 2;
+        background-color: #f3f3f3;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 0;
+        visibility: hidden;
+        transition: height 0.4s;
+    }
+
+    #menu li {
+        transition: all 0.3s;
+        opacity: -1;
+    } 
+
+    #searchBar {
+        width: 80%;
+        z-index: 999;
+        /* order: 2; */
+        margin: 82px 0;
+        /* text-align: center; */
+        /* margin-left: 70px; */
+
+    }
+
+    #menu li a::after {
+        top: 48px;
+    }
+
+    #menu li a::before {
+        top: 48px;
+    }
+    
+    #searchBar input {
+        width: 80%;
+        /* border-radius: none; */
+        
+    }
+
+    #menu li a {
+        padding: 18px 0;
+        color: rgb(56, 52, 52);
+        ;
+    }
+
+    #menu li:nth-of-type(1) {
+        transform: translateX(-150px);
+    }
+
+    #menu li:nth-child(2) {
+        transform: translateX(-200px);
+    }
+
+    #menu li:nth-child(3) {
+        transform: translateX(-250px);
+    }
+
+    #menu li:nth-of-type(4) {
+        transform: translateX(-300px);
+    }
+
+    #menu li:nth-child(5) {
+        transform: translateX(-350px);
+    }
+
+    nav .bar {
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 80px;
+        cursor: pointer;
+    }
+
+    nav .bar #times {
+        /* keeping times display none by default which means it wont be seen*/
+        display: none;
+    }
+
+    #check:checked~.bar #times {
+        /*making times display block when pressing the bars*/
+        display: block;
+    }
+
+    #check:checked~.bar #bars {
+        display: none;
+    }
+
+    #check:checked~#menu {
+        visibility: visible;
+        height: 345px;
+        margin-top: 59px;
+    }
+
+    #check:checked~#menu li:nth-child(1),
+    #check:checked~#menu li:nth-child(2),
+    #check:checked~#menu li:nth-child(3),
+    #check:checked~#menu li:nth-child(4),
+    #check:checked~#menu li:nth-child(5) {
+        transform: translateX(0);
+        opacity: 1;
+    }
+ 
+    #banner {
+        background-size: 86%;
+        background-position: 140px 37px;
+    }
+
+    #bannerContent {
+        width: 440px;
+    }
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    .aboutpicContainer img {
+        width: 238px;
+        height: 325px;
+    }
+
+    .cardImg1 {
+        width: 258px;
+        height: 165px;
+    }
+
+    .cardImg2 {
+        width: 265px;
+        height: 150px;
+    }
+
+    .cardImg3 {
+        width: 205px;
+        height: 170px;
+    }
+    
+    .cardImg4 {
+        width: 263px;
+        height: 175px;
+    }
+
+    .cardImg5 {
+        width: 255px;
+        height: 135px;
+    }
+    
+    .cardImg6 {
+        width: 260px;
+        height: 160px;
+    }
+
+    #ourDesign {
+        top: 90px;
+    }
+
+    .gridBoxMiddle {
+        margin-left: 56px! important;
+    }
+
+    #endgridContainer {
+        margin-top: 155px;
+    }
+}
+
+@media screen and (max-width: 1100px)  {
+    .cardImg1 {
+        width: 230px;
+        height: 147px;
+    }
+
+    .cardImg2 {
+        width: 245px;
+        height: 135px;
+    }
+
+    .cardImg3 {
+        width: 185px;
+        height: 145px;
+    }
+    
+    .cardImg4 {
+        width: 235px;
+        height: 148px;
+    }
+
+    .cardImg5 {
+        width: 230px;
+        height: 118px;
+    }
+    
+    .cardImg6 {
+        width: 237px;
+        height: 137px;
+    }
+
+    #ourDesign h1, .aboutContent h1 {
+        font-size: 29px;
+    }
+
+    #ourDesign {
+        top: 120px;
+    }
+
+    #bannerContent {
+        width: 430px;
+    }
+
+    /* #banner {
+        background-size: 86%;
+        background-position: 140px 37px;
+    } */
+
+    .gridBoxMiddle {
+        margin-left: 8px! important;
+    }
+
+    #endgridContainer {
+        grid-template-columns: 3fr 2fr 3fr;
+    }
+
+    #nlDiv input {
+        width: 310px;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .headOffice {
+        font-size: 25px;
+    }
+
+    #endgridContainer {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    #searchBar {
+        width: 80%;
+        z-index: 999;
+        margin: 74px 0;
+    }
+
+    #logo img {
+        width: 69px;
+        height: 70px;
+    }
+
+    .bussName {
+        font-size: 27px;
+    }
+
+    nav {
+        height: 136px;
+    }
+
+    nav .bar span {
+        font-size: 25px;
+        right: -45px;
+    }
+
+    #bannerContent {
+        width: 350px;
+        /* border: 2px solid forestgreen; */
+    }
+
+    #bannerContent p {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+
+    #readMore {
+        margin-top: 25px;
+    }
+
+    #bannerContent h2 {
+        font-size: 20px;
+    }
+
+    #banner {
+        background-position: 115px 55px;
+    }
+
+    #rmBttn {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+    .vmBttn {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .aboutContent {
+        margin-left: 40px;
+    }
+
+    .aboutContent p {
+        font-size: 15px;
+    }
+
+    .aboutContent h1 {
+        font-size: 26px;
+    }
+
+    .aboutContent h2 {
+        font-size: 20px;
+    }
+
+    #rmBttn1 {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .aboutpicContainer img {
+        width: 243px;
+        height: 330px;
+    }
+
+    .iconBottomImg {
+        margin-top: 303px;
+        margin-left: 5px;
+    }
+
+    .aboutContent > p:nth-of-type(1) {
+        font-size: 16px;
+    }
+
+    #readMore1 {
+        margin-top: 25px;
+    }
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    #ourDesign {
+        top: 60px;
+    }
+
+    #ourDesign h1 {
+        font-size: 26px;
+    }
+
+    .card>h3:first-child {
+        font-size: 16px;
+    }
+
+    .buyNowDiv h3 {
+        font-size: 16px;
+    }
+
+    .buyNowBttn {
+        padding: 7px 14px; 
+        font-size: 14px; 
+    }
+
+    .arrowBtn {
+        padding: 7px 15px;
+    }
+
+    #endgridContainer {
+        margin-top: 127px;
+    }
+
+    .gridBox p {
+        font-size: 16px;
+    }
+
+    #quickLinksDiv a {
+        font-size: 16px;
+    }
+
+    .sp {
+        font-size: 16px;
+    }
+
+    #subscribeBttn {
+        font-size: 16px;
+    }
+    
+    footer p {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    #endgridContainer {
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .gridBoxMiddle {
+        margin-left: 140px! important;
+    }
+
+    .headOffice {
+        padding-top: 20px;
+    }
+
+    #locbox {
+        margin-top: -3px;
+    }
+
+    .gridBoxfirst {
+        height: fit-content;
+    }
+
+    .gridBoxlast {
+        margin-top: -90px;
+    }
+
+    .socialmediaBox h2 {
+        margin-top: 20px !important;
+    }
+
+    .socialmediaBox {
+        width: max-content;
+    }
+
+}
+
+ 
+@media screen and (min-width: 902px) and (max-width: 1040px) {
+    
+    .cardImg1 {
+        width: 190px;
+        height: 123px;
+    }
+
+    .cardImg2 {
+        width: 199px;
+        height: 109px
+    }
+
+    .cardImg3 {
+        width: 155px;
+        height: 128px;
+    }
+    
+    .cardImg4 {
+        width: 200px;
+        height: 138px;
+    }
+
+    .cardImg5 {
+        width: 200px;
+        height: 100px;
+    }
+    
+    .cardImg6 {
+        width: 200px;
+        height: 125px;
+    }
+}
+
+
+@media screen and (max-width: 890px) {
+
+    .bussName {
+        font-size: 24px;
+    }
+
+
+
+    nav .bar span {
+        font-size: 25px;
+        /* right: -45px; */
+    }
+
+    #check:checked~#menu {
+        height: 336px;
+        margin-top: 54px;
+    }
+
+    
+
+    #logo img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .imgDiv img {
+        width: 497px;
+        height: 260px;
+    }
+    
+    .imgDiv {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 45px;
+    }
+
+    #bannerContent {
+        top: 20.5rem;
+        left: 50%;
+        transform: translateX(-50%); 
+        width: 42rem;
+        max-width: 85%;
+        /* border:2px solid blue; */
+    }
+
+    #banner {
+        height: 37rem;
+    }
+
+    #bannerContent h2 {
+        font-size: 20px;
+    }
+
+    #bannerContent p {
+        font-size: 16px;
+    }
+
+    #searchBar input {
+        height: 35px;
+        font-size: 16px;
+    }
+
+    #searchBar form button {
+        width: 35px;
+        Height: 35px;
+    }
+
+    #searchBar {
+        margin: 67px 0;
+    }
+
+    nav {
+        height: 125px;
+    }
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    .aboutContent h2 {
+        font-size: 20px;
+    }
+
+    #ourDesign {
+        top: 90px;
+    }
+
+    #menu li a {
+        font-size: 19px;
+    }
+
+    #endgridContainer {
+        margin-top: 147px;
+    }
+}
+
+@media screen and (max-width: 832px) {
+    #ourDesign {
+        top: 110px;
+    }
+
+    .om {
+        margin-top: 20px;
+    }
+
+    .arrowBtn {
+        padding: 8px 15px;
+    }
+
+    .gridBoxMiddle {
+        margin-left: 70px! important;
+    }
+
+    .icons1 i {
+        font-size: 27px;
+    }
+
+    #endgridContainer {
+        margin-top: 167px;
+    }
+}
+
+@media screen and (max-width: 764px) {
+  
+    #logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .bussName {
+        font-size: 23px;
+    }
+
+    nav .bar span {
+        font-size: 23px;
+        right: -45px;
+    }
+
+    #aboutUs {
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        width: 100%;
+    }
+
+    .aboutContent {
+        width: 638px;
+        margin-left: 0;
+        margin-top: 50px;
+        max-width: 85%;
+    }
+
+    .imgDiv img {
+        width: 475px;
+        height: 253px;
+    }
+
+    #ourDesign {
+        top: 40px;
+    }
+    
+    .arrowBtn {
+        padding: 6px 14px;
+    }
+
+    .arrowBtn i {
+        font-size: 20px;
+    }
+
+    .cardImg1 {
+        width: 177px;
+        height: 120px;
+    }
+    
+    .cardImg2 {
+        width: 180px;
+        height: 100px;
+    }
+    
+    .cardImg3 {
+        width: 140px;
+        height: 115px;
+    }
+    
+    .cardImg4 {
+        width: 177px;
+        height: 105px;
+    }
+    
+    .cardImg5 {
+        width: 170px;
+        height: 85px;
+    }
+    
+    .cardImg6 {
+        width: 168px;
+        height: 100px;
+    }
+
+    .gridBoxMiddle {
+        margin-left: 50px! important;
+    }
+
+    .heading {
+        font-size: 23px;
+    }
+
+    .headOffice {
+        font-size: 23px;
+    }
+
+    #nlDiv input {
+        width: 300px;
+    }
+
+    #nlDiv input {
+        width: 285px;
+    }
+
+    #endgridContainer {
+        margin-top: 105px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .icons1 {
+        margin: 4px 8px;
+    }
+
+} 
+
+@media screen and (max-width: 601px) {
+
+    .cardImg1 {
+        width: 230px;
+        height: 147px;
+    }
+
+    .cardImg2 {
+        width: 245px;
+        height: 135px;
+    }
+
+    .cardImg3 {
+        width: 185px;
+        height: 145px;
+    }
+    
+    .cardImg4 {
+        width: 235px;
+        height: 148px;
+    }
+
+    .cardImg5 {
+        width: 230px;
+        height: 118px;
+    }
+    
+    .cardImg6 {
+        width: 237px;
+        height: 137px;
+    }
+
+    #endgridContainer {
+        grid-template-columns: 1fr;
+        /* place-items: center; */
+    }
+
+    .gridBoxlast {
+        margin-top: 10px;
+    }
+
+    .gridBoxMiddle {
+        margin-top: 13px;
+    }
+
+    #endgridContainer {
+        margin-top: 117px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    #searchBar {
+        margin: 50px 0;
+    }
+
+    nav {
+        height: 108px;
+    }
+
+    nav .bar span {
+        top:-5px;
+    }
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    #logo img {
+        width: 49px;
+        height: 50px;
+    }
+
+    .bussName {
+        font-size: 20px;
+    }
+
+
+    nav .bar span {
+        font-size: 20px;
+    }
+
+    
+
+    #menu li a {
+        font-size: 17px;
+    }
+
+    #check:checked~#menu {
+        height: 320px;
+        margin-top: 52px;
+    }
+
+    #bannerContent p {
+        font-size: 15px;
+    }
+
+
+    #bannerContent {
+        top: 17rem;
+    }
+
+    #bannerContent h2 {
+        font-size: 18px;
+    }
+
+    .aboutContent h2 {
+        font-size: 18px
+    }
+
+    .imgDiv img {
+        width: 400px;
+        height: 212px;
+    }
+
+    .imgDiv {
+        top: 35px;
+    }
+
+    .aboutContent h1 {
+        font-size: 24px;
+    }
+
+    #ourDesign {
+        top: 50px;
+    }
+
+    #ourDesign h1 {
+        font-size: 24px;
+    }
+
+    #banner {
+        height: 34rem;
+    }
+
+    .aboutpicContainer img {
+        width: 219px;
+        height: 290px;
+    }
+    
+    #rmBttn {
+        font-size: 15px;
+    }
+
+    .vmBttn {
+        font-size: 15px;
+    }
+
+    #rmBttn1 {
+        font-size: 15px;
+    }
+
+    .aboutContent > p:nth-of-type(1) {
+        font-size: 15px;
+    }
+
+    .card>h3:first-child {
+        font-size: 15px;
+    }
+
+    .buyNowDiv h3 {
+        font-size: 14px;
+    }
+
+    .buyNowBttn {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+
+    .gridBox p {
+        font-size: 15px;
+    }
+
+    #quickLinksDiv a {
+        font-size: 15px;
+    }
+
+    .sp {
+        font-size: 15px;
+    }
+
+    #subscribeBttn {
+        font-size: 15px;
+    }
+
+    #nlDiv input {
+        font-size: 16px;
+    }
+
+    .icons1 i {
+        font-size: 24px;
+    }
+
+    .gridBoxMiddle {
+        margin-left: 5px! important;
+    }
+
+    footer p {
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #endgridContainer {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    
+}
+
+@media screen and (max-width: 517px) {
+    #ourDesign {
+        top: 90px;
+    }
+
+    .om {
+        margin-top: 17px;
+    }
+
+    #endgridContainer {
+        margin-top: 157px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+
+@media screen and (max-width: 482px) {
+    
+    #searchBar input {
+        font-size: 13px;
+        /* margin-top: 5px; */
+        height: 30px;
+    } 
+
+    #searchBar {
+        margin: 42px 0;
+    }
+
+    nav {
+        height: 91px;
+    }
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    #logo img {
+        width: 42px;
+        height: 43px;
+    }
+    .bussName {
+        font-size: 17px;
+        margin-top: 5px;
+        margin-left: 7px;
+    }
+
+    nav .bar span {
+        font-size: 16px;
+        right: -65px;
+    }
+
+
+    #menu li a {
+        font-size: 16px;
+    }
+
+    #menu li a {
+        padding: 15px 0;
+    }
+    
+    #check:checked~#menu {
+        height: 278px;
+        margin-top: 41px;
+    }
+
+    #searchBar form button {
+        width: 30px;
+        Height: 30px;
+        padding-top: 0;
+    }
+
+    .imgDiv img {
+        width: 300px;
+        height: 164px;
+    }
+
+    .imgDiv {
+        top: 31px;
+     }
+
+    #bannerContent p {
+        font-size: 13px;
+    }
+
+    #bannerContent h2 {
+        font-size: 16px;
+    }
+
+    .aboutContent p {
+        font-size: 13px;
+    }
+
+    .aboutContent h2 {
+        font-size: 16px;
+    }
+
+    .aboutContent {
+        margin-top: 35px;
+    }
+
+    #bannerContent {
+        top: 13.5rem;
+    }
+
+    #btn i {
+        font-size: 12px;
+    }
+
+    #banner {
+        height: 29.5rem;
+    }
+
+    form button i {
+        font-size: 13px;
+    }
+
+    #rmBttn {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+
+    .vmBttn {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+
+    #readMore1 {
+        margin-top: 22px;
+    }
+
+    #readMore {
+        margin-top: 22px;
+    }
+
+    #aboutUs {
+        top: 40px;
+    }
+
+    .aboutpicContainer img {
+        width: 188px;
+        height: 249px;
+    }
+
+    .aboutContent h1 {
+        font-size: 20px;
+    }
+
+    #rmBttn1 {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+
+    .vmBttn {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+
+    .aboutContent > p:nth-of-type(1) {
+        font-size: 13px;
+    }
+
+    #ourDesign h1 {
+        font-size: 20px;
+    }
+
+    #ourDesign {
+        top: -10px;
+    }
+
+    .om {
+        margin-top: 13px;
+    }
+
+    .card>h3:first-child {
+        font-size: 13px;
+    }
+
+    .buyNowBttn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .buyNowDiv h3 {
+        font-size: 13px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+    .gridBox p {
+        font-size: 13px;
+    }
+
+    #quickLinksDiv a {
+        font-size: 13px;
+    }
+
+    .sp {
+        font-size: 13px;
+    }
+
+    #subscribeBttn {
+        font-size: 13px;
+    }
+    
+    footer p {
+        font-size: 13px;
+    }
+
+    #endgridContainer {
+        margin-top: 55px;
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+
+    .headOffice {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 452px) {
+
+    .cardImg1 {
+        width: 147px;
+        height: 100px;
+    }
+    
+    .cardImg2 {
+        width: 150px;
+        height: 86px;
+    }
+    
+    .cardImg3 {
+        width: 103px;
+        height: 88px;
+    }
+    
+    .cardImg4 {
+        width: 157px;
+        height: 93px;
+    }
+    
+    .cardImg5 {
+        width: 149px;
+        height: 73px;
+    }
+    
+    .cardImg6 {
+        width: 150px;
+        height: 88px;
+    }
+}
+
+
+@media screen and (max-width: 417px) {
+    #ourDesign {
+        top: 21px;
+    }
+
+    .imgDiv img {
+        width: 280px;
+        height: 150px;
+    }
+
+    #bannerContent {
+        top: 12.8rem;
+    }
+
+    #banner {
+        height: 30rem;
+    }
+
+    .aboutpicContainer img {
+        width: 154px;
+        height: 205px;
+    }
+
+    .aboutContent {
+        margin-top: 30px;
+    }
+
+    .arrowBtn {
+        padding: 3.5px 12px;
+    }
+    .arrowBtn i {
+        font-size: 16px;
+    }
+
+    #menu li a {
+        font-size: 15px;
+    }
+
+    #menu li a {
+        padding: 13px 0;
+    }
+    
+    #check:checked~#menu {
+        height: 252px;
+    }
+
+    #endgridContainer {
+        margin-top: 87px;
+    }
+    
+    #nlDiv input {
+        width: 245px;
+        height: 17px;
+    }
+
+    #endgridContainer {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
